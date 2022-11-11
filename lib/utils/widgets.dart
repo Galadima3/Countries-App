@@ -48,7 +48,7 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                                   fontSize: 18.5, fontWeight: FontWeight.w600),
                             ),
                             IconButton(
-                              icon: Icon(Icons.cancel),
+                              icon: const Icon(Icons.cancel),
                               onPressed: () => Navigator.pop(context),
                             )
                           ],
